@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.button1 {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+  height: 50px;
+  
+}
+
+.button1:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.button1:active {
+  transform: scale(0.9);
+}
+
+.e1{
+  font-size: larger;
+}
+
+.e2{
+  font-size: x-large;
+}
+
+
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ }
+ 
+  .four_zero_four_bg h3{
+       font-size:80px;
+       }
+       
+       .link_404{      
+  color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 30px 0px;
+    display: inline-block;}
+  .contant_box_404{ margin-top:-50px;}
+/* laptop screen */
+
+  .im1{
+    display: inline-block;
+    position: relative;
+    left: 600px;
+  }
+
+  .inp1{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 550px;
+    width: 300px;
+  }
+
+  .inp2{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+    width: 300px;
+  }
+
+  .inp3{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 600px;
+    top: 50px;
+    width: 400px;
+    
+  }
+
+  .inp4{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 650px;
+    top: 10px;
+    width: 100px;
+  }
+
+  .inp5{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 640px;
+    top: 10px;
+    width: 400px;
+  }
+
+  
+
+  @media screen and (max-width:768px) {
+    
+  .im1{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+  }
+
+  .inp1{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 300px;
+    width: 300px;
+  }
+
+  .inp2{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 400px;
+    width: 300px;
+  }
+
+  .inp3{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    width: 400px;
+    
+  }
+  .inp4{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 350px;
+    top: 10px;
+    width: 100px;
+  }
+
+  .inp5{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 400px;
+  }
+
+  
+
+  }
+
+  @media screen and (max-width:376px) {
+    
+    .im1{
+      display: inline-block;
+      position: relative;
+      left: 50px;
+    }
+  
+    .inp1{
+      font-size: larger;
+      font-weight: bold;
+      position: relative;
+      left: 50px;
+      width: 300px;
+    }
+  
+    .inp2{
+      font-size: larger;
+      font-weight: bold;
+      position: relative;
+      left: 50px;
+      width: 300px;
+    }
+  
+    .inp3{
+      font-size: larger;
+      font-weight: bold;
+      position: relative;
+      left: 50px;
+      top: 50px;
+      width: 300px;
+      
+    }
+    .inp4{
+      font-size: larger;
+      font-weight: bold;
+      position: relative;
+      left: 50px;
+      top: 10px;
+      width: 100px;
+    }
+  
+    .inp5{
+      font-size: larger;
+      font-weight: bold;
+      position: relative;
+      left: 100px;
+      top: 10px;
+      width: 400px;
+    }
+    }
+
+    img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .quantity-control {
+      display: flex;
+      align-items: center;
+    }
+    
+    .decrement-button,
+    .increment-button {
+      background-color: white;
+      color: black;
+      border-radius: 50%;
+      padding: 8px 12px;
+      font-size: 16px;
+      margin: 0 8px;
+      cursor: pointer;
+      border: none;
+    }
+    
+    .decrement-button:hover,
+    .increment-button:hover {
+      background-color: lightblue;
+    }
+    
+    .quantity {
+      font-size: 18px;
+    }
+    
+    /* Car.css */
+.add-to-cart-button {
+  background-color: #007BFF; /* Background color */
+  color: white; /* Text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding for better appearance */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  border-radius: 4px; /* Add rounded corners */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Add a smooth background color transition */
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
